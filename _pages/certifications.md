@@ -6,7 +6,7 @@ title: "Certifications & Education"
 ## Flagship credentials
 - **CISSP** — ISC2 · Active (2025–2028)
 - **CISM** — ISACA · 2024
-- **CRISC** — ISACA · 2023 (renewal in progress)
+- **CRISC** — ISACA · Active
 - **SSCP** — ISC2 · Active (2020–2028)
 - **AIGP** — in progress
 - **MBA** — in progress
