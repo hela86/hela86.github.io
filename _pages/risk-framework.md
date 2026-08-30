@@ -23,9 +23,7 @@ the middle.
 - [Methodology (PDF)](https://github.com/hela86/ai-risk-assessment-framework/blob/main/Methodology.pdf)
 - [GitHub repo](https://github.com/hela86/ai-risk-assessment-framework)
  
-Screenshots:
-![Risk Register tab]((https://github.com/hela86/ai-risk-assessment-framework/blob/a9e7bec29da33af537d45b54fd1cb6fceb883971/p1-risk-register.png))
-![Executive Dashboard](p1-dashboard.png](https://github.com/hela86/ai-risk-assessment-framework/blob/a9e7bec29da33af537d45b54fd1cb6fceb883971/p1-dashboard.png))
+
  
 ## Reflection
 I underestimated how much time the methodology document would
