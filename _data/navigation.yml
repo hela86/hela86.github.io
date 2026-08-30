@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Certifications"
+    url: /certifications/
+  - title: "Blog"
+    url: "https://nasscybercorner.com"
