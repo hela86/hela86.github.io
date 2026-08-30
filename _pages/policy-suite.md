@@ -31,8 +31,6 @@ response — is what real governance looks like.
 - [Executive Briefing (PDF)](https://github.com/hela86/ai-governance-policy-suite/blob/main/Executive-Briefing-AI-Risk-v1.0.pdf)
 - [GitHub repo](https://github.com/hela86/ai-governance-policy-suite)
 
-Screenshots:
-![Policy hierarchy diagram]([p2-policy-hierarchy.png](https://github.com/hela86/ai-governance-policy-suite/blob/810e44934c5a9859cae63e7794f5a1030a05d269/p2-policy-hierarchy.png))
 
 ## Reflection
 Writing three policies on one template taught me how much
