@@ -18,6 +18,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hela86"
+   - label: "Blog"
+      icon: "fas fa-fw fa-pen"
+      url: "https://nasscybercorner.com"
  
 footer:
   links:
