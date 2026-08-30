@@ -24,11 +24,11 @@ the middle.
 - [GitHub repo](https://github.com/hela86/ai-risk-assessment-framework)
  
 Screenshots:
-![Risk Register tab](p1-dashboard.png)
-![Executive Dashboard](p1-risk-register.png)
+![Risk Register tab]((https://github.com/hela86/ai-risk-assessment-framework/blob/a9e7bec29da33af537d45b54fd1cb6fceb883971/p1-risk-register.png))
+![Executive Dashboard](p1-dashboard.png](https://github.com/hela86/ai-risk-assessment-framework/blob/a9e7bec29da33af537d45b54fd1cb6fceb883971/p1-dashboard.png))
  
 ## Reflection
 I underestimated how much time the methodology document would
-take relative to the workbook. In v2 I want to add sectoral
+take relative to the workbook. In v2, I want to add sectoral
 overlays for financial services and healthcare, where the
 control requirements diverge meaningfully.
