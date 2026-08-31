@@ -19,11 +19,11 @@ Three policies (Acceptable Use, Vendor Risk, Incident Response) plus an executiv
 ## Project 3 — Portfolio Website
 
 This site — built with Jekyll on GitHub Pages, version-controlled, with a consistent case-study structure across every project. 
-[Read the case study]((https://hela86.github.io/projects/portfolio-website/))
+[Read the case study](projects/portfolio-website/)
 [View on GitHub](https://github.com/hela86/hela86.github.io)
 
 ## Project 4 — AI Security News Monitor
 
 A local Python pipeline (feedparser, SQLite, macOS launchd) that collects, filters, and deduplicates AI-security news into a weekly digest — with a deliberate human-in-the-loop review gate. Collection is automated; the judgment, and every published word, stays with a person. 
-[Read the case study]([/projects/ai-news-monitor/](https://hela86.github.io/projects/ai-news-monitor/))
+[Read the case study](/projects/ai-news-monitor/)
 [View on GitHub](https://github.com/hela86/ai-news-monitor)
