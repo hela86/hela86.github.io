@@ -6,22 +6,48 @@ toc_label: "On this page"
 ---
 
 ## Problem
-Governance and security teams are expected to stay current on AI risk — new regulations, fresh vulnerabilities, and real-world incidents. Still, the sources are scattered across standards bodies, vendor blogs, and incident databases. Manually checking them is a chore that quietly slips. The tempting fix is full automation: have an LLM read the news and write the brief. But an unreviewed AI summary of security news is exactly the ungoverned-AI pattern this kind of work exists to prevent.
+Governance and security teams are expected to stay current on AI risk —
+new regulations, fresh vulnerabilities, real-world incidents — but the
+sources are scattered across standards bodies, vendor blogs, and incident
+databases. Manually checking them is a chore that quietly slips. TheA 
+tempting fix is full automation: have an LLM read the news and write the
+brief. But an unreviewed AI summary of security news is exactly the
+ungoverned-AI pattern, this kind of work exists to prevent.
 
 ## Approach
-- A local Python pipeline (feedparser + SQLite, scheduled with macOS launchd) that collects AI-security news from multiple RSS feeds, filters it to relevant items by keyword, deduplicates against a local database, and writes a clean digest.
-- A deliberate **human-in-the-loop review gate**: automation ends at the digest; a person turns it into the final brief, correcting mis-tags and cutting low-signal items before anything is published.
-- A saved, versioned prompt that turns each digest into a structured brief, with every item mapped to an OWASP LLM Top 10 category, NIST AI RMF function, or EU AI Act provision.
-- Runs entirely on one machine — no third-party automation cloud, no data leaving the boundary, and no API key in the pipeline.
+- A local Python pipeline (feedparser + SQLite, scheduled with macOS
+  launchd) that collects AI-security news from multiple RSS feeds, filters
+  it to relevant items by keyword, deduplicates against a local database,
+  and writes a clean digest.
+- A deliberate **human-in-the-loop review gate**: automation ends at the
+  digest; a person turns it into the final brief, correcting mis-tags and
+  cutting low-signal items before anything is published.
+- A saved, versioned prompt that turns each digest into a structured brief,
+  with every item mapped to an OWASP LLM Top 10 category, NIST AI RMF
+  function, or EU AI Act provision.
+- Runs entirely on one machine — no third-party automation cloud, no data
+  leaving the boundary, and no API key in the pipeline.
 
 ## Deliverable
 - [GitHub repo](https://github.com/hela86/ai-news-monitor)
 - [Monitor script (Python)](https://github.com/hela86/ai-news-monitor/blob/main/ai_news_monitor.py)
 - [Setup guide](https://github.com/hela86/ai-news-monitor/blob/main/SETUP.md)
-- [Review prompt](https://github.com/hela86/ai-news-monitor/tree/main/prompts)
+- [Review prompt](https://github.com/hela86/ai-news-monitor/blob/main/prompts/weekly-brief-prompt.md)
 - [Sample brief (PDF)](https://github.com/hela86/ai-news-monitor/blob/main/sample-brief.pdf)
 
-![Terminal run](https://github.com/hela86/ai-news-monitor/blob/main/p4-terminal-run.png?raw=true)
+Screenshots:
+![Terminal run](https://github.com/hela86/ai-news-monitor/blob/31171d9f9b5cf678341624f36efd1df73dd70877/p4-terminal-run.png)
 
 ## Reflection
-The most valuable decision in this project was the one to build *less* automation. It would have been faster to let a model write and send the brief unattended. Still, LLM summaries of security news mis-tag severity and hallucinate framework mappings, and publishing that unreviewed would undercut the entire premise of the work. Scoping the machine to collection and filtering, and keeping judgment with a human, is a smaller claim and a more defensible one. Building it in Python rather than a no-code tool kept all data local. It produced a readable artifact, and persistent deduplication via SQLite gives the monitor a memory across weeks, not just a per-run filter. In v2, I want to move from monitoring to scoring — ranking each item against a defined risk register while keeping the human gate intact.
+The most valuable decision in this project was the one to build *less*
+automation. It would have been faster to let a model write and send the
+brief unattended, but LLM summaries of security news mis-tag severity and
+hallucinate framework mappings, and publishing that unreviewed would
+undercut the entire premise of the work. Scoping the machine to collection
+and filtering, and keeping judgment with a human, is a smaller claim and a
+more defensible one. Building it in Python rather than a no-code tool kept
+all data local and produced a readable artifact — and persistent
+deduplication via SQLite gives the monitor a memory across weeks, not just a
+per-run filter. In v2 I want to move from monitoring to scoring — ranking
+each item against a defined risk register — while keeping the human gate
+intact.
