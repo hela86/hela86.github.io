@@ -39,3 +39,6 @@ defaults:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+
+include:
+  - _pages
