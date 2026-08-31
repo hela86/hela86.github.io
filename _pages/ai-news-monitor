@@ -13,7 +13,7 @@ Approach
   - Runs entirely on one machine, no third-party automation cloud, no data leaving the boundary, and no API key in the pipeline.
 
 Deliverable
-https://github.com/hela86/ai-news-monitor
+[GitHub repo](https://github.com/hela86/ai-news-monitor)
 https://github.com/hela86/ai-news-monitor/blob/main/ai_news_monitor.py
 https://github.com/hela86/ai-news-monitor/blob/main/SETUP.md
 https://github.com/hela86/ai-news-monitor/tree/main/prompts
