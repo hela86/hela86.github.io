@@ -35,8 +35,6 @@ ungoverned-AI pattern, this kind of work exists to prevent.
 - [Review prompt](https://github.com/hela86/ai-news-monitor/blob/main/prompts/weekly-brief-prompt.md)
 - [Sample brief (PDF)](https://github.com/hela86/ai-news-monitor/blob/main/sample-brief.pdf)
 
-Screenshots:
-![Terminal run](p4-terminal-run.png)
 
 ## Reflection
 The most valuable decision in this project was the one to build *less*
