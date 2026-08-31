@@ -1,11 +1,11 @@
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "default"
- 
+
 title: "Nas Belfon — AI Governance & Risk"
 name: "Nas Belfon"
 description: "AI Security & Governance portfolio. CISSP, CISM, CRISC, AIGP in progress, and MBA in progress."
 url: "https://hela86.github.io"
- 
+
 author:
   name: "Nas Belfon"
   avatar: "Screenshot 2025-05-19 at 18.05.07.jpeg"
@@ -18,16 +18,16 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hela86"
-   - label: "Blog"
+    - label: "Blog"
       icon: "fas fa-fw fa-pen"
       url: "https://nasscybercorner.com"
- 
+
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/nas-b-22502111b/"
- 
+
 defaults:
   - scope:
       path: ""
@@ -35,10 +35,7 @@ defaults:
     values:
       layout: single
       author_profile: true
- 
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-
-include:
-  - _pages
