@@ -4,7 +4,7 @@ title: "About"
 ---
 
 I work at the intersection of AI security, governance, and risk. My
-focus is the practical layer most organizations struggle with: turning
+Focus is the practical layer most organizations struggle with: turning
 AI frameworks — NIST AI RMF, ISO/IEC 42001, OWASP LLM Top 10, and the
 EU AI Act — into policies, assessments, and controls that teams can
 actually use.
