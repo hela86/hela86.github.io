@@ -21,3 +21,8 @@ This site — built with Jekyll on GitHub Pages, version-controlled, with a cons
 ## Project 4 — AI Security News Monitor
 A local Python pipeline (feedparser, SQLite, macOS launchd) that collects, filters, and deduplicates AI-security news into a weekly digest — with a deliberate human-in-the-loop review gate. Collection is automated; the judgment, and every published word, stays with a person.
 [Read the case study](/projects/ai-news-monitor/) · [View on GitHub](https://github.com/hela86/ai-news-monitor)
+
+## Project 5 - AI Threat Modeling Workshop Kit
+A 2-hour workshop kit adapting STRIDE for AI systems, with an OWASP LLM Top 10 and MITRE ATLAS overlay.
+[Read the case study](/projects/ai-threat-modeling-kit/) · [View on GitHub]((https://github.com/hela86/ai-threat-modeling-workshop-kit))
+
