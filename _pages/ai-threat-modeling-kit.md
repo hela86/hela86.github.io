@@ -8,7 +8,7 @@ toc_label: "On this page"
 
 A ready-to-run kit for facilitating AI threat modeling sessions, built on STRIDE with an OWASP LLM Top 10 and MITRE ATLAS overlay. Includes a 20-card threat deck and a fully worked example.
 
-[View on GitHub]((https://github.com/hela86/ai-threat-modeling-workshop-kit))
+[View on GitHub](https://github.com/hela86/ai-threat-modeling-workshop-kit)
 
 ## Problem
 
