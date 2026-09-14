@@ -24,5 +24,5 @@ A local Python pipeline (feedparser, SQLite, macOS launchd) that collects, filte
 
 ## Project 5 - AI Threat Modeling Workshop Kit
 A 2-hour workshop kit adapting STRIDE for AI systems, with an OWASP LLM Top 10 and MITRE ATLAS overlay.
-[Read the case study](/projects/ai-threat-modeling-kit/) · [View on GitHub]((https://github.com/hela86/ai-threat-modeling-workshop-kit))
+[Read the case study](/projects/ai-threat-modeling-kit/) · [View on GitHub](https://github.com/hela86/ai-threat-modeling-workshop-kit)
 
