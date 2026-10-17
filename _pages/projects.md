@@ -26,3 +26,7 @@ A local Python pipeline (feedparser, SQLite, macOS launchd) that collects, filte
 A 2-hour workshop kit adapting STRIDE for AI systems, with an OWASP LLM Top 10 and MITRE ATLAS overlay.
 [Read the case study](/projects/ai-threat-modeling-kit/) · [View on GitHub](https://github.com/hela86/ai-threat-modeling-workshop-kit)
 
+
+## Project 6 - AI Application Security Assessor
+A Python tool that runs 11 framework-mapped security checks against an LLM chatbot with switchable controls, and produces evidence for a human reviewer to sign. The most useful finding was a PASS the tool got wrong.
+[Read the case study](/projects/ai-app-security-assessor/) · [View on GitHub](https://github.com/hela86/ai-app-security-assessor)
